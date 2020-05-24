@@ -1,56 +1,7 @@
-<head>
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link href="css/styles.css" rel="stylesheet">
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-  <title>Corona Virus(Covid-19): Student</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-      <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-              <span class="navbar-toggler-icon"></span>
-          </button>  
-         
-         
-         <div class="collapse navbar-collapse" id="Navbar">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="https://tarun-covid19.netlify.app/index.html">
-                     <button class="btn btn-primary" type="button"  data-toggle="collapse" >
-                      <span class="fa fa-home fa-lg"></span> Home</button> </a></li>
-                  
-                      
-                          
-                            <li class="nav-item align-self-center">
-                              <a class="nav-link" href="https://tarun-wozniak-48e0bf.netlify.app">
-                                  <button class="btn-danger btn-primary " type="button"  data-toggle="collapse" >
-                                  <span class="fa fa-danger fa-lg"></span><b> COVID-19 TRACKER </b></button></a></li>
-                                  <form class="form-inline my-2 my-lg-0 align-self-center">
-                                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                    </form>
-      
-                      </ul>
-                         
-                  </div>         
-              </div>
-          </nav>
-</body>
-
-<div class="row mt-4 align-self-center">
-  <div class="col-md-6 m-5">
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
     <div class="card card-body">
-      <h1 class="align-self-center mb-2"><i class="fas fa-sign-in-alt"></i>
-        
-        Login</h1>
+      <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>  Login</h1>
       <% include ./partials/messages %>
       <form action="/users/login" method="POST">
         <div class="form-group">
@@ -81,7 +32,3 @@
     </div>
   </div>
 </div>
-<div class="row justify-content-center fixed-bottom">             
-  <div class="col-auto">
-      <p><b>© Copyright 2020:Tarun.</b></p>
-  </div>
